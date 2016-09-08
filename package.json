@@ -1,0 +1,25 @@
+{
+  "name": "microsofttechcasesstudy-test",
+  "version": "1.0.0",
+  "description": "Testing evidence content with Travis",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/evidences.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Microsoft/evidences/issues"
+  },
+  "homepage": "https://github.com/Microsoft/evidences#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}

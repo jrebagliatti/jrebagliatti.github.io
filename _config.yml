@@ -1,0 +1,20 @@
+# Site settings
+title: Technical Case Studies
+email: dcaro@microsoft.com
+# description: 
+baseurl: "/techcasestudies" # the subpath of your site, e.g. /blog/
+url: https://microsoft.github.io" # the base hostname & protocol for your site
+twitter_username: dcaro
+github_username:  microsoft
+encoding: utf-8
+
+# Build settings
+# markdown: redcarpet
+# highlighter: pygments
+# extensions: [tables fenced_code_blocks]
+
+exclude: [vendor]
+kramdown:
+   input: GFM
+gems:
+  - jekyll-sitemap
